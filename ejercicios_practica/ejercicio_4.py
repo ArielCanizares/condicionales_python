@@ -16,6 +16,10 @@ texto_2 = '7'
 # La comparación alfabética es aquella que se logra cuando
 # se utiliza el operador mayor o menor con Strings (textos)
 # Imprima en pantalla según corresponda
+if texto_1 > texto_2:
+    print(texto_1, "es mayor alfabéticamente que",texto_2,".")
+else:
+    print(texto_1,"es menor alfabéticamente que",texto_2,".")
 
 # 2-Transforma esas variables tipo texto en variables numéricas con (int)
 # y almacénalas en nuevas variables.
@@ -23,6 +27,13 @@ texto_2 = '7'
 # utilizando los operadores correspondientes
 # ¿Cuál de las nuevas variables es mayor?
 # Imprima en pantalla según corresponda
+texto_3 = 5
+texto_4 = 7
+
+if texto_1 > texto_2:
+    print(texto_1, "es numéricamente mayor que",texto_2,".")
+else:
+    print(texto_1,"es numéricamente menor que",texto_2,".")
 
 # Para pensar!
 # ¿Por qué cree que texto_2 es mayor a texto_1?
@@ -32,3 +43,9 @@ texto_2 = '7'
 # Esta pregunta estará repetida en el Campus para que puedan
 # responder.
 # NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
+
+''' RESPUESTA:
+Me pasó en otro ejercicio (el 2) en dónde se comparaban caracteres,
+en este caso ingresé "Árbol" y "Actas". Y Debía comparar las primeras letras de cada palabra.
+Para mi sorpresa el programa arrojó que "Á" era mayor a "A" sin tilde.
+Yo creo que viene por ese lado.'''
